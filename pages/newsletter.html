@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../img/logoslay-1.png"
+      type="logo slay-1.png"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">STAY!</div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+          <li><a href="../index.html">Hoy!</a></li>
+          <li><a href="chimento.html">Chimento</a></li>
+          <li><a href="viajes.html">Viajes</a></li>
+          <li><a href="musica.html">Música</a></li>
+          <li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main></main>
+    <h1>Subscribite a nuestro Newsletter y Gana</h1>
+    <form>
+      <div class="form-row">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <div class="form-row">
+        <label for="surname">Apellido:</label>
+        <input type="text" id="surname" name="surname" />
+      </div>
+
+      <div class="form-row">
+        <label for="country">País:</label>
+        <select id="country" name="country">
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Chile">Chile</option>
+          <option value="Colombia">Colombia</option>
+          <option value="México">México</option>
+          <option value="Perú">Perú</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label>Preferencias:</label>
+        <div class="preferences">
+          <label
+            ><input type="checkbox" name="preferences[]" value="arte" />
+            Arte</label
+          >
+          <label
+            ><input type="checkbox" name="preferences[]" value="musica" />
+            Música</label
+          >
+          <label
+            ><input type="checkbox" name="preferences[]" value="peliculas" />
+            Películas</label
+          >
+          <label
+            ><input type="checkbox" name="preferences[]" value="lectura" />
+            Lectura</label
+          >
+        </div>
+      </div>
+      <div class="form-row">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+    <article>
+      <h2>Ganadores del sorteo del mes</h2>
+      <ul class="winners-list">
+        <li>
+          <span class="user">Juan Pérez</span>
+          <span class="email">juan.perez@example.com</span>
+          <span class="subscription">Oro</span>
+        </li>
+        <li>
+          <span class="user">María García</span>
+          <span class="email">maria.garcia@gmail.com</span>
+          <span class="subscription">Plata</span>
+        </li>
+        <li>
+          <span class="user">Pedro López</span>
+          <span class="email">pedro.lopez@gmail.com</span>
+          <span class="subscription">Bronce</span>
+        </li>
+        <li>
+          <span class="user">Laura Fernández</span>
+          <span class="email">laura.fernandez@gmail.com</span>
+          <span class="subscription">Oro</span>
+        </li>
+      </ul>
+    </article>
+    <footer id="footer">
+      <p>Copyright © 2023. Revista SLAY! | Rubio Agostina.</p>
+    </footer>
+  </body>
+</html>
