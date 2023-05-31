@@ -1,0 +1,10 @@
+h2 {
+  color: map-get($color-map, "h1-color");
+}
+
+p {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  color: map-get($color-map, "p-color");
+}

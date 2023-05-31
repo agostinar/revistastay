@@ -1,0 +1,25 @@
+article {
+  width: 80%;
+}
+
+.winners-list {
+  border: 2px solid $border-color;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+    &:nth-child(even) {
+      background-color: $even-background-color;
+    }
+  }
+
+  .user,
+  .email,
+  .subscription {
+    flex-basis: 33.33%;
+  }
+}
