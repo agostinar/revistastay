@@ -1,0 +1,46 @@
+$plum: #8e4585;
+$light-plum: #c96db7;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: $plum;
+}
+
+.ranking {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.position {
+  width: 30px;
+  font-weight: bold;
+  color: $plum;
+}
+
+.title {
+  flex: 1;
+  margin: 0 10px;
+  color: $plum;
+}
+
+.artist {
+  font-weight: bold;
+  color: $light-plum;
+}
